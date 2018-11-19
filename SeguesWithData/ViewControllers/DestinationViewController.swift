@@ -6,6 +6,8 @@ class DestinationViewController: UIViewController {
 
     @IBOutlet weak var textLabel: UILabel!
     
+    lazy var segue = SegueManager(self)
+    
     var text: String = ""
     
     override func viewDidLoad() {
@@ -16,6 +18,16 @@ class DestinationViewController: UIViewController {
         
     }
     
+    @IBAction func onClick(_ sender: Any) {
+        self.segue.performSegue(withIdentifier: "secondDestination", sender: self) { nextController in
+            let controller = nextController as! SecondDestinationViewController
+            controller.text = "Wahey the new method works"
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        self.segue.prepare(for: segue, sender: sender)
+    }
 
 }
 

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9B060CCD21A211C8006CB20D /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B060CCC21A211C8006CB20D /* extension.swift */; };
+		9B060CCF21A34B4F006CB20D /* SecondDestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B060CCE21A34B4F006CB20D /* SecondDestinationViewController.swift */; };
 		9B83E90C21A20C0400AF6E04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B83E90B21A20C0400AF6E04 /* AppDelegate.swift */; };
 		9B83E90E21A20C0400AF6E04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B83E90D21A20C0400AF6E04 /* ViewController.swift */; };
 		9B83E91121A20C0400AF6E04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B83E90F21A20C0400AF6E04 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		9B060CCC21A211C8006CB20D /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		9B060CCE21A34B4F006CB20D /* SecondDestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondDestinationViewController.swift; sourceTree = "<group>"; };
 		9B83E90821A20C0400AF6E04 /* SeguesWithData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeguesWithData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B83E90B21A20C0400AF6E04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B83E90D21A20C0400AF6E04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 			children = (
 				9B83E90D21A20C0400AF6E04 /* ViewController.swift */,
 				9B83E93A21A20CAB00AF6E04 /* DestinationViewController.swift */,
+				9B060CCE21A34B4F006CB20D /* SecondDestinationViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B060CCF21A34B4F006CB20D /* SecondDestinationViewController.swift in Sources */,
 				9B83E90E21A20C0400AF6E04 /* ViewController.swift in Sources */,
 				9B83E93B21A20CAB00AF6E04 /* DestinationViewController.swift in Sources */,
 				9B83E90C21A20C0400AF6E04 /* AppDelegate.swift in Sources */,

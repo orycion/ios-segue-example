@@ -34,12 +34,3 @@ class SegueManager {
     }
     
 }
-
-class AppViewController: UIViewController {
-    
-    lazy var segue = SegueManager(self)
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        self.segue.prepare(for: segue, sender: sender)
-    }
-}
